@@ -1,5 +1,6 @@
 ############### Kattis Solutions #########################
--> No Solution
+-> PolyMul1	(java) [AC]
+-> averageseasy (java) [AC]
 
 
 ############### Scorify.me Solution #########################
