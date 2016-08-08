@@ -1,13 +1,9 @@
 ############### Kattis Solutions #########################
--> Powers : Not Finshed
--> No Sollution
+-> No Solution
 
 
 ############### Scorify.me Solution #########################
 
 ## EURO Challange ##
 -> NO SOLUTION YET
--> YES NO SOLUTION
-
-
 
