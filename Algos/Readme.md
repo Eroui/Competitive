@@ -1,8 +1,12 @@
 ############### ALGORITHMES #################
 
 
-####### Graph ########>
 
+# Trees >
 
-# Other >
+# Graphs >
+
+# Sorting >
+
+# Others >
 -> UNION-FIND DISJOINT SETS (Java)
