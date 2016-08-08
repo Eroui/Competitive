@@ -1,6 +1,6 @@
 ############### Kattis Solutions #########################
 -> Powers : Not Finshed
-
+-> No Sollution
 
 
 ############### Scorify.me Solution #########################
