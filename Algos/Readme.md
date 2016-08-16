@@ -5,7 +5,7 @@
 # Trees >
 
 # Graphs >
-
+	Adjacency Matrix Implementation (Java)
 # Sorting >
 
 # Others >
