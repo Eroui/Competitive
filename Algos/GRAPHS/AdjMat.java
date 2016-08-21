@@ -6,6 +6,7 @@ import java.util.*;
 *   @Email 		= kapi.abdel@gmail.com
 *	
 *	This is an implementation of graphs using adjacency Matrix 
+*  	Better Not use Adjacency Matrix if V (Number of vertices ) is Greather than 100;
 */
 
 public class AdjMat {
