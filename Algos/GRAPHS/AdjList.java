@@ -2,8 +2,8 @@ import java.util.*;
 
 
 /**
-*	@Author 	= Eroui Abdelaziz (EAbdel)
-*   @Email 		= kapi.abdel@gmail.com
+*	@Author = Eroui Abdelaziz (EAbdel)
+*   @Email 	= kapi.abdel@gmail.com
 *	
 *	This is an implementation of graphs using adjacency List (Generic) 
 */
@@ -30,15 +30,15 @@ class Pair <X, Y>{
 
 }
 
-public class AdjList <W>{									// W is the weight Data type 
+public class AdjList <W>{ // W is the weight Data type 
 
-	int _V; 												//The number of Virtices
-	Vector< Vector< Pair< Integer, W >>> g;					//The adjacecy List
+	int _V; 	//The number of Virtices
+	Vector< Vector< Pair< Integer, W >>> g; //The adjacecy List
 
 	public AdjList(int V) {
 		_V = V;
 		g = new Vector< Vector< Pair< Integer, W>>>(V);
-		for(int i = 0; i < V; i++) { 		// Initialising The Graph (Empty)
+		for(int i = 0; i < V; i++) { // Initialising The Graph (Empty)
 			Vector< Pair< Integer, W>> _Neighbor = new Vector< Pair< Integer, W>>();
 			g.add(_Neighbor);
 		}
