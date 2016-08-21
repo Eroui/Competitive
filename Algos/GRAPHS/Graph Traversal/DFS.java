@@ -2,8 +2,8 @@ import java.util.*;
 import java.io.*;
 
 /**
-*	@Author  Eroui Abdelaziz (EAbdel)
-*   @Email 	 kapi.abdel@gmail.com
+* @Author  Eroui Abdelaziz (EAbdel)
+* @Email 	 kapi.abdel@gmail.com
 *	
 *	Graph Traversal Using Depth-First Search 
 */
@@ -31,7 +31,7 @@ public class DFS {
 /****************************************************************
 ****************************************************************/
 
-class DFS_Recursive {	// Recursive Implementation of Depth-First-Search
+class DFS_Recursive {// Recursive Implementation of Depth-First-Search
 
 	private AdjList _g;
 	private boolean[] _visited;
@@ -46,7 +46,7 @@ class DFS_Recursive {	// Recursive Implementation of Depth-First-Search
 
 	public void dfs(int v) {
 		setVisited(v);
-		System.out.print(v+", ");	// remove of not needed
+		System.out.print(v+", ");// remove of not needed
 		Iterator it = _g.adjacent(v).iterator();
 		while(it.hasNext()) {
 			Pair p = (Pair) it.next();
@@ -89,15 +89,15 @@ class Pair <X, Y>{
 /****************************************************************
 ****************************************************************/
 
-class AdjList <W>{									// W is the weight Data type 
+class AdjList <W>{// W is the weight Data type 
 
-	int _V; 												//The number of Virtices
-	Vector< Vector< Pair< Integer, W >>> g;					//The adjacecy List
+	int _V; //The number of Virtices
+	Vector< Vector< Pair< Integer, W >>> g;//The adjacecy List
 
 	public AdjList(int V) {
 		_V = V;
 		g = new Vector< Vector< Pair< Integer, W>>>(V);
-		for(int i = 0; i < V; i++) { 		// Initialising The Graph (Empty)
+		for(int i = 0; i < V; i++) { // Initialising The Graph (Empty)
 			Vector< Pair< Integer, W>> _Neighbor = new Vector< Pair< Integer, W>>();
 			g.add(_Neighbor);
 		}
