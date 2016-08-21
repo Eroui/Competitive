@@ -8,10 +8,10 @@
 - Adjacency Matrix Implementation (Java)
 - Adjacency List Implementation (Java)
 
-### Graph Traversal > 
+###Graph Traversal > 
 - Depth First Search (Java)
 
-## Sorting >
+##Sorting >
 
-## Others >
+##Others >
 - UNION-FIND DISJOINT SETS (Java)
