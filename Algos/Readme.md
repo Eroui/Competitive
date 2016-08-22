@@ -4,7 +4,7 @@
 
  ## Trees >
 
- ## Graphs >
+ ## Graph >
  - Adjacency Matrix Implementation (Java)
  - Adjacency List Implementation (Java)
 
