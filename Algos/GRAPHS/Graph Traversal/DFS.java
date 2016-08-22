@@ -2,15 +2,15 @@ import java.util.*;
 import java.io.*;
 
 /**
-* @Author  Eroui Abdelaziz (EAbdel)
-* @Email 	 kapi.abdel@gmail.com
+* @Author   Eroui Abdelaziz (EAbdel)
+* @Email    kapi.abdel@gmail.com
 *	
-*	Graph Traversal Using Depth-First Search 
+*  Graph Traversal Using Depth-First Search (Recursive and with Stack)
 */
 
 public class DFS {
 	 public static void main (String[] args) {
-        Scanner in = new Scanner(new File(in.txt));
+        Scanner in = new Scanner(System.in);
         int V = in.nextInt();
         int E = in.nextInt();
         
@@ -23,10 +23,56 @@ public class DFS {
         }
         
         DFS_Recursive d = new DFS_Recursive(g);
-        d.dfs(0); 
+        d.dfs(1); 
+        
+        System.out.println();
+        DFS_Stack d1 = new DFS_Stack(g);
+        d1.dfs(1);
     }
 }
 
+
+/****************************************************************
+****************************************************************/
+
+
+class DFS_Stack { // DFS implementation Using Stack 
+
+	private AdjList _g;
+	private boolean[] _visited;
+	private int _v;
+
+	public DFS_Stack(AdjList g) { 
+		_g = g;
+		_v = g._V;
+		_visited = new boolean[_v];
+	}
+
+
+	public void dfs(int v) {
+		Stack<Integer> stack = new Stack<Integer>();
+		stack.push(v);
+
+		while(!stack.empty()) {
+			int u = stack.pop();
+			if(!isVisited(u)) {
+				setVisited(u);
+				System.out.print(u+", ");
+				Iterator it = _g.adjacent(u).iterator();
+				while(it.hasNext()) {
+					Pair<Integer, ?> p = (Pair) it.next();
+					stack.push(p.first());
+				}
+			}
+		}
+	}
+
+
+	public boolean isVisited(int i) {return _visited[i];}
+	public void setVisited(int i) {_visited[i] = true;}
+
+
+}
 
 /****************************************************************
 ****************************************************************/
@@ -78,7 +124,7 @@ class Pair <X, Y>{
 	void setFirst(X f) { _first = f;}
 	void setSecond(Y s) { _second = s;}
 	
-	public boolean equals(Object o) {    //needed for the adjacency List
+	public boolean equals(Object o) {//needed for the adjacency List
 	    Pair _p = (Pair) o;
 	    return this.first().equals(_p.first());
 	}
