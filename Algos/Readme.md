@@ -1,11 +1,15 @@
-# ALGORITHMES #################
- ## TREES >
+# ALGORITHMES
+
+## TREES >
  
- ## GRAPHS >
- - Adjacency Matrix Implementation (Java)
- - Adjacency List Implementation (Java)
-  ### Graph Traversal > 
+## GRAPHS >
+- Adjacency Matrix Implementation (Java)
+- Adjacency List Implementation (Java)
+
+ ### Graph Traversal > 
   - Depth First Search (Java)
- ## SORTING >
- ## OTHERS >
- - UNION-FIND DISJOINT SETS (Java)
+  
+## SORTING >
+
+## OTHERS >
+- UNION-FIND DISJOINT SETS (Java)
