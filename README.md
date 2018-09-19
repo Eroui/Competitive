@@ -2,3 +2,4 @@
  - [ ] [Java](Hackerrank/Java)
    - [ ] [Introduction](Hackerrank/Java/Introduction)
      - [x] [Welcome To Java](Hackerrank/Java/Introduction/welcome-to-java.java)
+     - [x] [Java Stdin and Stdout I](HackerRank/Java/Introduction/stdin-and-stdout.java)
