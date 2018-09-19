@@ -1,3 +1,3 @@
 ## [HackerRank](/Hackerrank)
 ### [Java](Hackerrank/Java)
-#### [Introduction](Hackerrank/Java/Intruduction)
+#### [Introduction](Hackerrank/Java/Introduction)
