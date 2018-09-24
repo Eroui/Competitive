@@ -27,3 +27,8 @@
      - [x] [Java Regex 2 - Duplicate Words](Hackerrank/Java/strings/duplicate-word.java)
      - [x] [Valid Username Regular Expression](Hackerrank/Java/strings/valid-username-checker.java)
      - [x] [Tag Content Extractor](Hackerrank/Java/strings/tag-content-extractor.java)
+
+   - [x] [BigNumber](Hackerrank/Java/BigNumber)
+     - [x] [Java Big Decimal](Hackerrank/Java/BigNumber/java-bigdecimal.java)
+     - [x] [Java Primality Tes](Hackerrank/Java/BigNumber/java-primality-test.java)
+     - [x] [java BigInteger](Hackerrank/Java/BigNumber/java-biginteger.java)
