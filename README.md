@@ -49,3 +49,13 @@
      - [x] [Java Dequeue](Hackerrank/Java/DataStructures/java-dequeue.java)
      - [x] [Java BitSet](Hackerrank/Java/DataStructures/java-bitset.java)
      - [x] [Java Priority Queue](Hackerrank/Java/DataStructures/java-priority-queue.java)
+
+   - [x] [Object Oriented Programming](Hackerrank/Java/OOP)
+     - [x] [Java Inheritance I](Hackerrank/Java/OOP/java-inheritance-1.java)
+     - [x] [Java Inheritance II](Hackerrank/Java/OOP/java-inheritance-2.java)
+     - [x] [Java Abstract Class](Hackerrank/Java/OOP/java-abstract-class.java)
+     - [x] [Java Interface](Hackerrank/Java/OOP/java-interface.java)
+     - [x] [Java Method Overriding](Hackerrank/Java/OOP/java-method-overriding.java)
+     - [x] [Java Method Override 2 (Super Keyword)](Hackerrank/Java/OOP/java-method-overriding-2-super-keyword.java)
+     - [x] [Java Instanceof keyword](Hackerrank/Java/OOP/java-instanceof-keyword.java)
+     - [x] [Java Iterator](Hackerrank/Java/OOP/java-iterator.java)
