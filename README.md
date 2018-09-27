@@ -59,3 +59,7 @@
      - [x] [Java Method Override 2 (Super Keyword)](Hackerrank/Java/OOP/java-method-overriding-2-super-keyword.java)
      - [x] [Java Instanceof keyword](Hackerrank/Java/OOP/java-instanceof-keyword.java)
      - [x] [Java Iterator](Hackerrank/Java/OOP/java-iterator.java)
+
+   - [x] [Exception Handling](Hackerrank/Java/Exceptions)
+     - [x] [Java Exception Handling (Try-catch)](Hackerrank/Java/Exceptions/java-exception-handling-try-catch.java)
+     - [x] [Java Exception Handling](Hackerrank/Java/Exceptions/java-exception-handling.java)
